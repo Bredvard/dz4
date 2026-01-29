@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(100, 187, 231);
+}
+
+p {
+  color: red;
+}
+.pclass {
+  color: green;
+}
+#idselector {
+  color: gray;
+}
+p[spellcheck*="true"] {
+  color: yellow;
+}
+div p {
+  color: orange;
+}
+div > p {
+  color: crimson;
+}
+div > section > p {
+  color: blueviolet;
+}
+h1 + p {
+  color: burlywood;
+}
+
+.class#selector {
+  color: darkred;
+}
+
+.parent {
+  color: blue;
+}
+.child {
+  color: lavenderblush;
+}
